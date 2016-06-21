@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1B5F1FF00DEF2C3794CB8F795A36AE23 /* Pods-SWUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C6C6A651016B0D38D9DB9A8BF28A18 /* Pods-SWUtils_Tests-dummy.m */; };
-		1C36FBE15852A9B0DFCD48B1DCAF7D95 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F26345A531BC93E923C79426D8533A /* ReplaceMe.swift */; };
 		2BD9C2574782CA82994A0B1E72DE211B /* SWUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A65D52D4D391213F5A00E12E5916875 /* SWUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C148F9F577FBC901612CCE46E904FC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3E237D3349CBAA42A76975CC810C1E5C /* SWUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B217D85B5E0844D15EB7C0E8332D58C /* SWUtils-dummy.m */; };
@@ -17,6 +16,9 @@
 		B143239CC9D47FE7D0284E294CB7ADE2 /* Pods-SWUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DEF35F1D2DDCF381A48005711F70C0 /* Pods-SWUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA1114BF758DB92651F120F59A8BC9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E45053A564B6425A2D5105A864B74DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F69340A81D19A391005C9C9D /* SWDataToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69340A51D19A391005C9C9D /* SWDataToolKit.swift */; };
+		F69340A91D19A391005C9C9D /* SWToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69340A61D19A391005C9C9D /* SWToolKit.swift */; };
+		F69340AA1D19A391005C9C9D /* SWUIToolKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69340A71D19A391005C9C9D /* SWUIToolKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,6 @@
 		3B217D85B5E0844D15EB7C0E8332D58C /* SWUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWUtils-dummy.m"; sourceTree = "<group>"; };
 		3F3744A0B2E6032065872FB4BE4E9567 /* Pods-SWUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWUtils_Tests-resources.sh"; sourceTree = "<group>"; };
 		47E3B041CEFCA706B1E4BCF04111A4BE /* Pods_SWUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47F26345A531BC93E923C79426D8533A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4C802597EEC023338677FA10D804FA55 /* Pods-SWUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		543DBF81FC973018BAB57B6901A89756 /* SWUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6791D69DD47500AD208AA635C8AEB49E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +62,9 @@
 		EC3E7AE0AB5E6CD9B00961A8BDBAADDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5F11AF548014F843136E5D574BB62BD /* Pods-SWUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F69103C5E43587ED74CE94935762290D /* Pods-SWUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F69340A51D19A391005C9C9D /* SWDataToolKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWDataToolKit.swift; sourceTree = "<group>"; };
+		F69340A61D19A391005C9C9D /* SWToolKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWToolKit.swift; sourceTree = "<group>"; };
+		F69340A71D19A391005C9C9D /* SWUIToolKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWUIToolKit.swift; sourceTree = "<group>"; };
 		F92E77C7F4DE78AD12E002188C000A29 /* Pods-SWUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWUtils_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +115,9 @@
 		4156554143E00B487AFF4DD0A5776FBD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				47F26345A531BC93E923C79426D8533A /* ReplaceMe.swift */,
+				F69340A51D19A391005C9C9D /* SWDataToolKit.swift */,
+				F69340A61D19A391005C9C9D /* SWToolKit.swift */,
+				F69340A71D19A391005C9C9D /* SWUIToolKit.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,8 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C36FBE15852A9B0DFCD48B1DCAF7D95 /* ReplaceMe.swift in Sources */,
 				3E237D3349CBAA42A76975CC810C1E5C /* SWUtils-dummy.m in Sources */,
+				F69340AA1D19A391005C9C9D /* SWUIToolKit.swift in Sources */,
+				F69340A91D19A391005C9C9D /* SWToolKit.swift in Sources */,
+				F69340A81D19A391005C9C9D /* SWDataToolKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE050084955A3C8181116BB2586415E5 /* Pods-SWUtils_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -532,6 +541,7 @@
 				PRODUCT_NAME = Pods_SWUtils_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -542,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7448FC0B7C2A06EB01BFF98EDD16BF4 /* Pods-SWUtils_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
