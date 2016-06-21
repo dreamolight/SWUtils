@@ -1,0 +1,16 @@
+PODS:
+  - SWUtils (0.1.0)
+
+DEPENDENCIES:
+  - SWUtils (from `../`)
+
+EXTERNAL SOURCES:
+  SWUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SWUtils: 6ae53197c6f7a39fdbffa4f74599971127d4497c
+
+PODFILE CHECKSUM: aa2df982e92b2e0a6f7c3fc95cc15ebcd48fecf3
+
+COCOAPODS: 1.0.1

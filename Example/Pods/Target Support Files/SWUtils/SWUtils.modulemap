@@ -1,0 +1,6 @@
+framework module SWUtils {
+  umbrella header "SWUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
