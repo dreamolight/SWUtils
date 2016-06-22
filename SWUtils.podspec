@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SWUtils'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'iOS Toolbox of Stan'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SWUtils/Classes/**/*'
+  s.source_files = 'SWUtils/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'SWUtils' => ['SWUtils/Assets/*.png']
