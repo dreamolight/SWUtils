@@ -538,7 +538,7 @@ class SWImageView: UIImageView{
                 
                 
                 if let image = img{
-                    SWUtils.RunOnMainThread({ () -> Void in
+                    sw_dispatch_on_main_thread({ () -> Void in
                         self.image = image
                         
                         var ary = str.componentsSeparatedByString("/")
@@ -628,7 +628,7 @@ class SWButton: UIButton{
                 
                 
                 if let image = img{
-                    SWUtils.RunOnMainThread({ () -> Void in
+                    sw_dispatch_on_main_thread({ () -> Void in
                         self.setImage(image, forState: .Normal)
                         
                         var ary = str.componentsSeparatedByString("/")
